@@ -1,0 +1,30 @@
+
+#bgcolor{background-image: linear-gradient(to right, skyblue,
+    rgb(233, 110, 110),rgb(62, 62, 165));}
+
+.main
+{width: 1000px; height: 350px; 
+display: flex; 
+margin: 150px 250px;}
+
+.box
+{color: aliceblue;
+border: 3px solid brown;
+width: 300px; height: 350px;
+margin: 30px;
+box-shadow: 15px 10px 15px rgb(105, 224, 141);
+text-align: center;}
+
+img { width: 50px; height: 50px;}
+
+p::first-letter {font-size: 3em;}
+
+.box:hover{ background-color: aliceblue; color:#a92929; border-radius: 30px; }
+
+a:hover{color: rgb(220, 78, 78); font-size: large;}
+
+@font-face{
+    font-family: lango;
+    src: url(Long_Cang/LongCang-Regular.ttf);}
+
+h2{ letter-spacing: 8px; word-spacing: 20px; font-family: lango;}
